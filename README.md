@@ -2,9 +2,11 @@
 
 Ensures that all IPFS content uploaded to party.app and create.party.app remains retrievable indefinitely.
 
-## How It Works
+## IPFS Node
 
-Party hosts a [Kubo](https://github.com/ipfs/kubo) IPFS node on [Fly.io](https://fly.io) that keeps all content pinned and accessible via an IPFS gateway indefinitely. This is hosted at [https://ipfs-node.fly.dev/](https://ipfs-node.fly.dev/)The full list of pinned CIDs is stored in this repo as `cids.json`.
+Party hosts a [Kubo](https://github.com/ipfs/kubo) IPFS node on fly.io that keeps all content pinned and accessible via an IPFS gateway indefinitely. 
+
+This is hosted at [https://ipfs-node.fly.dev/](https://ipfs-node.fly.dev/). The full list of pinned CIDs is stored in this repo as `cids.json`.
 
 ## Self-Hosting
 
@@ -14,7 +16,7 @@ If our hosted node goes down, anyone can run their own IPFS node to serve the co
 
 If the content is no longer pinned anywhere on the IPFS network, a full backup of the IPFS block store is available at:
 
-**https://pub-ac99b6e4f94a40ab927548cb984b7e4c.r2.dev/ipfs-backup.tar.gz** (~19 GB)
+https://pub-ac99b6e4f94a40ab927548cb984b7e4c.r2.dev/ipfs-backup.tar.gz (~19 GB)
 
 To restore from backup:
 
