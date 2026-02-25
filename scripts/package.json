@@ -1,0 +1,16 @@
+{
+  "name": "ipfs-hosting",
+  "type": "module",
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "list-cids": "tsx src/list_cids.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0"
+  }
+}
