@@ -20,7 +20,7 @@ https://pub-ac99b6e4f94a40ab927548cb984b7e4c.r2.dev/ipfs-backup.tar.gz (~19 GB)
 
 This backup is also stored permanently on-chain via Irys:
 
-**https://gateway.irys.xyz/7JG6doqyYUnYsDddaobdEfRBqaRpi1uZPrAFgvKaiGHg**
+https://gateway.irys.xyz/7JG6doqyYUnYsDddaobdEfRBqaRpi1uZPrAFgvKaiGHg
 
 To restore from backup:
 
