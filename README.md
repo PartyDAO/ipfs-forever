@@ -16,6 +16,10 @@ If the content is no longer pinned anywhere on the IPFS network, a full backup o
 
 **https://pub-ac99b6e4f94a40ab927548cb984b7e4c.r2.dev/ipfs-backup.tar.gz** (~19 GB)
 
+This backup is also stored permanently on-chain via Irys:
+
+**https://gateway.irys.xyz/7JG6doqyYUnYsDddaobdEfRBqaRpi1uZPrAFgvKaiGHg**
+
 To restore from backup:
 
 1. Start a fresh Kubo node
@@ -29,4 +33,5 @@ All 22,247 pins will be restored.
 
 - **`cids.json`** — Complete list of all pinned CIDs
 - **`pinning-box/`** — Dockerfile, `fly.toml`, and init scripts for hosting the IPFS node
+- **`irys-upload/`** — Script and docs for uploading the IPFS backup to [Irys](https://irys.xyz) (permanent on-chain storage via USDC on Ethereum)
 - **`scripts/`** — Tooling for exporting CIDs from Pinata
