@@ -16,7 +16,7 @@ If our hosted node goes down, anyone can run their own IPFS node to serve the co
 
 If the content is no longer pinned anywhere on the IPFS network, a full backup of the IPFS block store is available at:
 
-https://pub-ac99b6e4f94a40ab927548cb984b7e4c.r2.dev/ipfs-backup.tar.gz (~19 GB)
+https://backups.partybid.app/ipfs-backup.tar.gz (~19 GB)
 
 This backup is also stored permanently on-chain via Irys:
 
